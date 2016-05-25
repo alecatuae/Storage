@@ -1,7 +1,7 @@
 # Lista Maquinas virtuais data de criacao das maquinas virtuais 
 
 #variaveis principais
-$vcenter = "vcenter.dc.nova"
+$vcenter = "vcenter.server"
 $arquivocsv = "vm_criacao.csv"
 
 Add-PSSnapin VMware.VimAutomation.Core -ErrorAction SilentlyContinue
