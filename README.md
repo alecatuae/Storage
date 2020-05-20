@@ -1,6 +1,6 @@
-#Pré-Requisitos
+# Pré-Requisitos
 
-##PowerShell
+## PowerShell
   1. Install-Module -Name VMware.PowerCLI
   2. Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
   3. Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
